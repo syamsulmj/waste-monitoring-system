@@ -1,0 +1,41 @@
+.data-control {
+  margin-top: 50px;
+
+  .data-adding-form {
+    padding: 1em;
+    background: #ffffff;
+
+    .title {
+      margin-bottom: 25px;
+      span {
+        color: rgba(0, 0, 0, .25);
+        font-size: 1.4rem;
+        font-weight: 500;
+        font-family: helvetica;
+      }
+    }
+
+    form {
+      .form-label {
+        color: rgba(0, 0, 0, .5);
+        font-size: 1.2rem;
+        font-family: helvetica;
+      }
+
+      .informative-text {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        span {
+          font-size: .7rem;
+          color: rgba(0, 0, 0, .2);
+        }
+
+      }
+
+      .customed-button {
+        text-align: right;
+      }
+      
+    }
+  }
+}

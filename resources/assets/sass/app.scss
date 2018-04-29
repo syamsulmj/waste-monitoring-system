@@ -1,0 +1,17 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+@import url('https://fonts.googleapis.com/css?family=Sofadi+One');
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Styles
+@import "style/all";
+
+body {
+  background: #f7f7f7 !important;
+}
