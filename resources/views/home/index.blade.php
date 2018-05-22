@@ -7,9 +7,9 @@
         @foreach ($dust_bins as $db)
           <div class="card">
             <img class="card-img-top" src="{{ asset('images/dust-bin.jpg') }}" alt="Card image cap">
-            @if ($db->status)
+            @if (!$db->status)
               <div class="card-body border-seperator empty">
-                <span class="card-text">Empty</span>
+                <span class="card-text">Not Full</span>
               </div>
             @else
               <div class="card-body border-seperator full">
